@@ -1,0 +1,26 @@
+{
+  "name": "node-first-project",
+  "version": "1.0.0",
+  "description": "\u0016\u0016Serve an image at different size / resolution depending on user request",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "node -r dotenv/config ./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhhoang23/node-first-project.git"
+  },
+  "author": "Minh Hoang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minhhoang23/node-first-project/issues"
+  },
+  "homepage": "https://github.com/minhhoang23/node-first-project#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
